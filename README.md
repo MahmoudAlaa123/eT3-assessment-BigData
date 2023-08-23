@@ -63,11 +63,9 @@ To customize the YOLOv8 model for training on our dataset, utilize the `custom_d
 
 The YOLOv8 architecture was chosen for its effectiveness in object detection tasks, especially when working with limited data samples. The training process spanned 100 epochs, allowing the model to progressively learn and refine its detection capabilities.
 
-## Validation of text files
+## Converting Testing Data to JSON Format and Storing it on Google Drive
 
-Throughout the training, text-based location information for objects in the validation dataset was saved. These files document the precise positions of detected objects, enabling further analysis and performance evaluation post-training.
-
-## Converting Validation Data to JSON Format and Storing on Google Drive
+The last 2 cells in the notebook will convert the label of test data to JSON format and save the resulting JSON files to the `output_json` folder in Google Drive.
 
 **Access and Analyze JSON Data:**
    Once the conversion process is complete, you can access the JSON files in the `output_json` folder on your Google Drive. These files are now in a structured format that is suitable for further analysis.
