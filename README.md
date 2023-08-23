@@ -17,9 +17,7 @@ To run the script, use the following command in your terminal:
 Replace `source_folder_path` with the path to the source folder containing images, and `destination_folder_path` with the path to the destination folder where images will be copied.
 
 3. Output:
-The script will copy images from the source folder to the destination folder, while collecting details such as image size and modification date. The collected information is presented in a DataFrame and printed to the terminal.
-
-Optionally, the script also returns the DataFrame, which can be further processed or used in your code.
+The script will copy images from the source folder to the destination folder while collecting details such as image size and modification date. The collected information is presented in a DataFrame and written into a CSV file in the destination folder.
 
 
 # Detection System for Photo Analysis
@@ -35,6 +33,9 @@ The core of this project is provided in the notebook named `yolov8.ipynb`. We re
 ## Data Annotation
 
 The dataset was annotated using makesense.ai, a versatile and efficient platform for annotating data. This involved carefully marking objects of interest within images to create ground truth labels for model training. To help you understand the annotation process, two annotated examples are included in the repository.
+
+![Annotate 1](example1.png)
+![Annotate 2](example2.png)
 
 ## Dataset Division
 
