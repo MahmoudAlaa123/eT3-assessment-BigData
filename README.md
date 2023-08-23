@@ -28,7 +28,6 @@ The main goal is to develop a model that accurately identifies and locates speci
 
 The core of this project is provided in the notebook named `yolov8.ipynb`. We recommend running this notebook in Google Colab, a cloud-based Jupyter notebook environment. Google Colab provides the necessary resources for training deep learning models, making it easier to manage the computational demands of this project.
 
-**Note:** Before running the notebook, make sure to upload your annotated dataset to your Google Drive and adjust the paths accordingly in the notebook.
 
 ## Data Annotation
 
@@ -50,6 +49,10 @@ This 80-10-10 split ratio ensures the model is trained on a substantial dataset,
 ## Custom Configuration
 
 To customize the YOLOv8 model for training on our dataset, utilize the `custom_data.yaml` file. This file includes dataset paths, model parameters, and hyperparameters. Tailoring the model in this manner ensures it's well-suited for our data's characteristics and the specific detection task.
+
+![custom_data](custom_data_paths.png)
+
+**Note:** Before running the notebook, make sure to upload your annotated dataset to your Google Drive and adjust the paths accordingly in the notebook by providing the path to the images, and don't change the name of the folders.
 
 ## Model Training
 
