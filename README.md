@@ -28,9 +28,10 @@ The main goal is to develop a model that accurately identifies and locates speci
 
 The core of this project is provided in the notebook named `yolov8.ipynb`. We recommend running this notebook in Google Colab, a cloud-based Jupyter notebook environment. Google Colab provides the necessary resources for training deep learning models, making it easier to manage the computational demands of this project.
 
-**Note:** Variables need to be changed based on your environment: ```ROOTDIR```,  ```output_folder``` (if you don't want to change them you have to make the exact path that I did)
+**Note:** Variables need to be changed based on your environment: ```ROOTDIR```,  ```output_folder``` , ```input_folder```   (if you don't want to change them you have to make the exact path that I did)
 
-```predict model```, ```source``` (in the prediction command), and the ```input folder``` will be changed based on the model outputs that you will use for further analysis
+
+```predict model```, ```source``` (in the prediction command)
 
 
 ## Data Annotation
@@ -45,8 +46,8 @@ The dataset was annotated using makesense.ai, a versatile and efficient platform
 To ensure effective model training and evaluation, we divided the dataset into three categories:
 
 - **Training Dataset:** 28 photos
-- **Validation Dataset:** 4 photos (10% of the dataset)
-- **Testing Dataset:** 4 photos (10% of the dataset)
+- **Validation Dataset:** 4 photos 
+- **Testing Dataset:** 3 photos 
 
 This 80-10-10 split ratio ensures the model is trained on a substantial dataset, validated on unseen data, and tested on a separate set of images to assess its generalization performance.
 
@@ -62,9 +63,14 @@ To customize the YOLOv8 model for training on our dataset, utilize the `custom_d
 
 The YOLOv8 architecture was chosen for its effectiveness in object detection tasks, especially when working with limited data samples. The training process spanned 100 epochs, allowing the model to progressively learn and refine its detection capabilities.
 
-## Validation Text Files
+## Validation of text files
 
-Throughout training, text-based location information for objects in the validation dataset was saved. These files document the precise positions of detected objects, enabling further analysis and performance evaluation post-training.
+Throughout the training, text-based location information for objects in the validation dataset was saved. These files document the precise positions of detected objects, enabling further analysis and performance evaluation post-training.
+
+## Converting Validation Data to JSON Format and Storing on Google Drive
+
+**Access and Analyze JSON Data:**
+   Once the conversion process is complete, you can access the JSON files in the `output_json` folder on your Google Drive. These files are now in a structured format that is suitable for further analysis.
 
 
 
