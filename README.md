@@ -86,6 +86,23 @@ To customize the YOLOv8 model for training on our dataset, utilize the `custom_d
 
 The YOLOv8 architecture was chosen for its effectiveness in object detection tasks, especially when working with limited data samples. The training process spanned 100 epochs, allowing the model to progressively learn and refine its detection capabilities.
 
+## Model Validation 
+
+We can see the validation data set achieved 0.625 in the mean average precision after 100 epochs using the CPU capabilities 
+
+![val](Validation.png)
+
+## Model Testing 
+
+this is the result to 3 photos that model has never seen them
+
+![test1](test_image2.png)
+![test2](test_image20.png)
+![test3](test_image4.png)
+
+
+
+
 ## Converting Testing Data to JSON Format and Storing it on Google Drive
 
 The last 2 cells in the notebook will convert the label of test data to JSON format and save the resulting JSON files to the `output_json` folder in Google Drive.
