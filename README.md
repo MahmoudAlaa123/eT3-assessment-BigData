@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Follow these steps to get started with the Colab notebook:
+Follow these steps to get started:
 
 1. **Clone the Repository:**
    Begin by cloning this repository to your local machine. Open a terminal and run the following commands:
