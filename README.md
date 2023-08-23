@@ -21,3 +21,43 @@ The script will copy images from the source folder to the destination folder, wh
 
 Optionally, the script also returns the DataFrame, which can be further processed or used in your code.
 
+
+# Detection System for Photo Analysis
+
+The main goal is to develop a model that accurately identifies and locates specific objects within images. The process involves data annotation, dataset organization, and training a YOLOv8 model.
+
+## Running the Code
+
+The core of this project is provided in the notebook named `yolov8.ipynb`. We recommend running this notebook in Google Colab, a cloud-based Jupyter notebook environment. Google Colab provides the necessary resources for training deep learning models, making it easier to manage the computational demands of this project.
+
+**Note:** Before running the notebook, make sure to upload your annotated dataset to your Google Drive and adjust the paths accordingly in the notebook.
+
+## Data Annotation
+
+The dataset was annotated using makesense.ai, a versatile and efficient platform for annotating data. This involved carefully marking objects of interest within images to create ground truth labels for model training. To help you understand the annotation process, two annotated examples are included in the repository.
+
+## Dataset Division
+
+To ensure effective model training and evaluation, we divided the dataset into three categories:
+
+- **Training Dataset:** 28 photos
+- **Validation Dataset:** 4 photos (10% of the dataset)
+- **Testing Dataset:** 4 photos (10% of the dataset)
+
+This 80-10-10 split ratio ensures the model is trained on a substantial dataset, validated on unseen data, and tested on a separate set of images to assess its generalization performance.
+
+## Custom Configuration
+
+To customize the YOLOv8 model for training on our dataset, utilize the `custom_data.yaml` file. This file includes dataset paths, model parameters, and hyperparameters. Tailoring the model in this manner ensures it's well-suited for our data's characteristics and the specific detection task.
+
+## Model Training
+
+The YOLOv8 architecture was chosen for its effectiveness in object detection tasks, especially when working with limited data samples. The training process spanned 1000 epochs, allowing the model to progressively learn and refine its detection capabilities.
+
+## Validation Text Files
+
+Throughout training, text-based location information for objects in the validation dataset was saved. These files document the precise positions of detected objects, enabling further analysis and performance evaluation post-training.
+
+
+
+
