@@ -96,9 +96,9 @@ We can see the validation data set achieved 0.625 in the mean average precision 
 
 this is the result to 3 photos that model has never seen them
 
-![test1](test_image2.png)
-![test2](test_image20.png)
-![test3](test_image4.png)
+![test1](test_image2.jpg)
+![test2](test_image20.jpg)
+![test3](test_image4.jpg)
 
 
 
