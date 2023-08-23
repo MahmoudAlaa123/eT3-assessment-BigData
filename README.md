@@ -28,6 +28,9 @@ The main goal is to develop a model that accurately identifies and locates speci
 
 The core of this project is provided in the notebook named `yolov8.ipynb`. We recommend running this notebook in Google Colab, a cloud-based Jupyter notebook environment. Google Colab provides the necessary resources for training deep learning models, making it easier to manage the computational demands of this project.
 
+**Note:** Variables need to be changed based on your environment: ```ROOTDIR```,  ```output_folder``` (if you don't want to change them you have to make the exact path that I did)
+```predict model```, ```source folder```, ```input folder``` will be changed based on the model outputs that you will use for further analysis
+
 
 ## Data Annotation
 
