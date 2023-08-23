@@ -45,7 +45,7 @@ The dataset was annotated using makesense.ai, a versatile and efficient platform
 
 To ensure effective model training and evaluation, we divided the dataset into three categories:
 
-- **Training Dataset:** 28 photos
+- **Training Dataset:** 29 photos
 - **Validation Dataset:** 4 photos 
 - **Testing Dataset:** 3 photos 
 
