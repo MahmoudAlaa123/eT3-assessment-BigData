@@ -26,6 +26,9 @@ This script is designed to copy images from a source folder to a destination fol
 1. Install Dependencies:
    Make sure you have the required libraries installed.
 
+   ```
+   pip install pandas
+
 2. Run the Script:
 To run the script, use the following command in your terminal:
 
