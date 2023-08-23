@@ -61,8 +61,8 @@ The core of this project is provided in the notebook named `yolov8.ipynb`. We re
 
 The dataset was annotated using makesense.ai, a versatile and efficient platform for annotating data. This involved carefully marking objects of interest within images to create ground truth labels for model training. To help you understand the annotation process, two annotated examples are included in the repository.
 
-![Annotate 1](example1.png)
-![Annotate 2](example2.png)
+![Annotate 1](images/example1.png)
+![Annotate 2](images/example2.png)
 
 ## Dataset Division
 
@@ -90,15 +90,15 @@ The YOLOv8 architecture was chosen for its effectiveness in object detection tas
 
 We can see the validation data set achieved 0.625 in the mean average precision after 100 epochs using the CPU capabilities 
 
-![val](Validation.png)
+![val](images/Validation.png)
 
 ## Model Testing 
 
 Predictions to 3 photos that the model has never seen them
 
-![test1](test_image2.jpg)
-![test2](test_image20.jpg)
-![test3](test_image4.jpg)
+![test1](images/test_image2.jpg)
+![test2](images/test_image20.jpg)
+![test3](images/test_image4.jpg)
 
 
 
