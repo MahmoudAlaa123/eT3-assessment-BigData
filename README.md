@@ -56,7 +56,7 @@ To customize the YOLOv8 model for training on our dataset, utilize the `custom_d
 
 ## Model Training
 
-The YOLOv8 architecture was chosen for its effectiveness in object detection tasks, especially when working with limited data samples. The training process spanned 1000 epochs, allowing the model to progressively learn and refine its detection capabilities.
+The YOLOv8 architecture was chosen for its effectiveness in object detection tasks, especially when working with limited data samples. The training process spanned 100 epochs, allowing the model to progressively learn and refine its detection capabilities.
 
 ## Validation Text Files
 
