@@ -31,7 +31,7 @@ The core of this project is provided in the notebook named `yolov8.ipynb`. We re
 **Note:** Variables need to be changed based on your environment: ```ROOTDIR```,  ```output_folder``` , ```input_folder```   (if you don't want to change them you have to make the exact path that I did)
 
 
-```predict model```, ```source``` (in the prediction command)
+```predict model```, ```source``` (in the prediction command) based on the output of the model
 
 
 ## Data Annotation
