@@ -12,8 +12,7 @@ This script is designed to copy images from a source folder to a destination fol
 2. Run the Script:
 To run the script, use the following command in your terminal:
 
-```bash
-python3 eT3_problem1.py source_folder_path destination_folder_path
+```bash python3 eT3_problem1.py source_folder_path destination_folder_path
 
 Replace `source_folder_path` with the path to the source folder containing images, and `destination_folder_path` with the path to the destination folder where images will be copied.
 
