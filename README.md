@@ -1,5 +1,22 @@
 # eT3-assessment-BigData
 
+## Getting Started
+
+Follow these steps to get started with the Colab notebook:
+
+1. **Clone the Repository:**
+   Begin by cloning this repository to your local machine. Open a terminal and run the following commands:
+
+   ```
+   git clone https://github.com/MahmoudAlaa123/eT3-assessment-BigData.git
+
+2. **Navigate to the Repository:** Change the current working directory to the cloned repository's folder:
+
+   ```
+   cd eT3-assessment-BigData
+
+
+
 ## Problem 1: Image Data Processing Script
 
 This script is designed to copy images from a source folder to a destination folder while collecting details such as image size and modification date. The collected information is then presented in a DataFrame and optionally returned for further processing.
@@ -12,7 +29,8 @@ This script is designed to copy images from a source folder to a destination fol
 2. Run the Script:
 To run the script, use the following command in your terminal:
 
-```python3 eT3_problem1.py source_folder_path destination_folder_path ```
+   ```
+    python3 eT3_problem1.py source_folder_path destination_folder_path 
 
 Replace `source_folder_path` with the path to the source folder containing images, and `destination_folder_path` with the path to the destination folder where images will be copied.
 
