@@ -1,0 +1,16 @@
+
+
+# download command/URL (optional)
+
+
+
+train: /content/gdrive/My Drive/et3_drive/train/images  
+val: /content/gdrive/My Drive/et3_drive/val/images 
+test: /content/gdrive/My Drive/et3_drive/test/images 
+
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'object' ]
