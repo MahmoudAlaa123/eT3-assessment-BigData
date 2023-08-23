@@ -51,10 +51,10 @@ The core of this project is provided in the notebook named `yolov8.ipynb`. We re
 
  [Open in Google Colab](yolo.ipynb).
 
-**Note:** Variables need to be changed based on your environment: ```ROOTDIR```,  ```output_folder``` , ```input_folder```   (if you don't want to change them you have to make the exact path that I did)
+**Note:** Variables need to be changed based on your environment: ```ROOTDIR```,  ```output_folder```  (if you don't want to change them you have to make the exact path that I did)
 
 
-```predict model```, ```source``` (in the prediction command) based on the output of the model
+```predict model```, ```source``` (in the prediction command) based on the output of the model , ```input_folder```  the output from the prediction labels of the testset
 
 
 ## Data Annotation
