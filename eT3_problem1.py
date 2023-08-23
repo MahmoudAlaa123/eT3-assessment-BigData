@@ -31,6 +31,9 @@ def main(source_folder, destination_folder):
     # Path to the destination folder where you want to store all images
     # destination_folder = '/home/mahmoudalaa/Desktop/images_dataset/'
 
+    # Create the output folder if it doesn't exist
+    os.makedirs(destination_folder, exist_ok=True)
+
     image_counter = 1
     data = []
     for root, _, files in os.walk(source_folder):
