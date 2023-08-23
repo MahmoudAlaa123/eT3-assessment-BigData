@@ -59,7 +59,7 @@ The core of this project is provided in the notebook named `yolov8.ipynb`. We re
 
 ## Data Annotation
 
-The dataset was annotated using makesense.ai, a versatile and efficient platform for annotating data. This involved carefully marking objects of interest within images to create ground truth labels for model training. To help you understand the annotation process, two annotated examples are included in the repository.
+The dataset was annotated using [makesense.ai](makesense.ai), a versatile and efficient platform for annotating data. This involved carefully marking objects of interest within images to create ground truth labels for model training. To help you understand the annotation process, two annotated examples are included in the repository.
 
 ![Annotate 1](images/example1.png)
 ![Annotate 2](images/example2.png)
